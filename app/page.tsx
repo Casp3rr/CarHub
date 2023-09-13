@@ -52,9 +52,6 @@ try{
 
 
 
-  const isDataEmpty = !Array.isArray(allCars) || !allCars.length < 1 || !allCars;
-  
-
   return (
     <main className="overflow-hidden">
       <Hero />
@@ -64,7 +61,7 @@ try{
             Car Catalogue
           </h1>
           <p >
-            Explore some of the best cars from around the world from our catalogue.
+            Explore some of the best cars from around the world in our catalog.
           </p>
 
         </div>
